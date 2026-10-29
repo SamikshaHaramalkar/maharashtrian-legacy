@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+
+# Local database backups
+db.sql
+my_db (1).sql
+
+# Keep admin login private until secured
+loginadmin.php

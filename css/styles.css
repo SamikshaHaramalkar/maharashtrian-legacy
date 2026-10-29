@@ -1,0 +1,305 @@
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Georgia', serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .row {
+            align-items: center;
+            justify-content: space-around !important;
+        }
+
+        /* Navbar */
+        .navbar-brand {
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        .nav-link.active {
+            color: #ffffff !important;
+        }
+
+        .navbar-expand-lg .navbar-nav {
+            flex-direction: row;
+            column-gap: 22px;
+        }
+
+        nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+            height: 80px;
+        }
+
+        /* Hero Section with Ganesh Background Image */
+        .hero {
+            background-image: url('../assets/img/Ganesh.jpg');
+            /* Replace with the correct path to your Ganesh image */
+            background-size: cover;
+            background-position: center;
+            height: 85vh;
+            position: relative;
+            color: white;
+        }
+
+        .hero-content {
+            z-index: 2;
+            position: relative;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero a.btn {
+            font-size: 1.2rem;
+            padding: 8px 20px;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgb(0 0 0 / 50%);
+            /* Dark overlay for text readability */
+            z-index: 1;
+        }
+
+        .modal-content {
+            margin-top: 80px;
+            background-color: #3d3d3d;
+        }
+
+        /* About Section */
+        .about-hr {
+            width: 10px;
+            height: 5px;
+            background-color: #f37b1d;
+            border: none;
+        }
+
+        .about-section img {
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        #about {
+            margin: 100px 70px !important;
+        }
+
+        .about-section img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Services Section */
+        .service-box {
+            background-color: rgba(0, 0, 0, 0.8);
+            transition: all 0.3s;
+        }
+
+        .service-box:hover {
+            background-color: #f37b1d;
+            transform: translateY(-10px);
+        }
+
+        section#services {
+            margin: 110px auto !important;
+        }
+
+        .service-box img {
+            width: 150px;
+            height: 150px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .service-box:hover img {
+            transform: scale(1.1);
+        }
+
+        .services-hr {
+            width: 80px;
+            height: 5px;
+            background-color: #0a0a09;
+            border: none;
+        }
+
+        /* Testimonials Section */
+        .testimonial-card {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .testimonial-card:hover {
+            transform: scale(1.05);
+            padding: 20px;
+        }
+
+        .testimonials-container.d-flex.overflow-auto {
+            margin-top: 70px;
+        }
+
+        .testimonial-card img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+
+        .submit-card {
+            background-color: #0c0c0c;
+            color: rgb(232, 230, 230);
+            border-radius: 10px;
+        }
+
+        .testimonial-card {
+            background-color: rgba(22, 20, 20, 0.779);
+            padding: 45px;
+            width: 100%;
+            border-radius: 12%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+            margin-bottom: 65px;
+            position: relative;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(10px);
+            box-shadow: 0 6px 15px rgba(254, 253, 253, 0.912);
+        }
+
+        .testimonial-img {
+            width: 100px;
+            height: 85px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        blockquote {
+            font-style: italic;
+            color: #666;
+            margin: 15px 0;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .card {
+            width: 50% !important;
+            margin: 0px 24% !important;
+        }
+
+        h5 {
+            font-weight: bold;
+            margin-top: 10px;
+            color: #f37b1d;
+        }
+
+        p {
+            font-size: 1rem;
+            color: #e9ecef;
+        }
+
+        /* Durga Section */
+        .durga-section {
+            background-image: url('../assets/img/Durga.jpg');
+            /* Path to Durga image */
+            background-size: cover;
+            background-position: center;
+            height: 65vh;
+            position: relative;
+            color: white;
+        }
+
+        .durga-content {
+            z-index: 2;
+            position: relative;
+            text-align: center;
+        }
+
+        .durga-content h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        .durga-content p {
+            font-size: 1.5rem;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        .durga-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Dark overlay for text readability */
+            z-index: 1;
+        }
+
+        /* Contact Section */
+        .contact-hr {
+            width: 80px;
+            height: 5px;
+            background-color: #f37b1d;
+            border: none;
+        }
+
+        ul.list-unstyled li {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        ul.list-unstyled i {
+            margin-right: 10px;
+        }
+
+        .btn-warning {
+            background-color: #f37b1d;
+            border: none;
+        }
+
+        .btn-warning:hover {
+            background-color: #e36500;
+        }
+
+        .responseMessage {
+            color: #1d9bf0;
+        }
+
+        /* Footer */
+        footer p {
+            margin: 0;
+            color: #ffffff;
+        }
+
+        .footer {
+            background-color: #000000;
+            padding: 20px 0;
+            text-align: center;
+            width: 100%;
+            bottom: 0;
+        }
